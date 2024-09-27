@@ -23,7 +23,6 @@ export default function RootLayout({
         <body
           className={outfit.className}
         >
-          <Navbar/>
           {children}
         </body>
       </html>
