@@ -4,7 +4,7 @@ import { UserButton } from "@clerk/nextjs";
 const Navbar = () => {
   return (
     <div>
-        <div className='flex my-3 flex-row items-center justify-between'>
+        <div className='flex my-3 flex-row items-center px-10 justify-between'>
             <h1 className='hover:cursor-pointer'><span className='text-3xl font-semibold bg-orange-400 rounded-xl px-2'>TAXI</span><span className='text-3xl text-orange-400 font-semibold'>GO</span></h1>
             <div className='flex hover:cursor-pointer gap-x-16'>
                 <h2>Home</h2>
